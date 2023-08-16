@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "U-Automate",
+    "version": "1.0",
+    "description": "Automates course registration for your University's Portal",
+    "permissions": ["activeTab","tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "author": "SKOOM21",
+    "content_scripts": [
+      {
+        "matches": ["https://flexstudent.nu.edu.pk/Student/CourseRegistration*"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      }
+    }
+  }
+  
