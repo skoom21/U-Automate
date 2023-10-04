@@ -1,44 +1,40 @@
-FlexStudent Automator
-FlexStudent Automator is a Chrome extension crafted to streamline and automate the course registration process on the FlexStudent portal.
+## **FlexStudent Automator**
 
-Overview
-This extension simplifies course registration by automating repetitive tasks, providing real-time updates, and offering an intuitive configuration interface.
+### **Overview**
 
-Features
-Smart Automation: The extension automates elective selection based on predefined criteria, reducing manual effort.
-Real-time Updates: It monitors seat availability in real-time and adjusts selections accordingly, ensuring you get the classes you need.
-User-Friendly Interface: Easy configuration is facilitated through a sleek and intuitive popup, making it accessible for all users.
-Getting Started
-Prerequisites
-Ensure you have Google Chrome installed on your system.
+[FlexStudent Automator logo]
+FlexStudent Automator is a **Chrome extension** that streamlines and enhances the course registration workflow on the FlexStudent portal. It introduces **intelligent automation**, **real-time updates**, and an **intuitive interface** to simplify and expedite the elective selection process.
 
-Installation
-Clone the repository:
+### **Features**
 
-bash
-Copy code
-git clone https://github.com/your-username/flexstudent-automator.git
-Open Chrome and navigate to chrome://extensions/.
+* **Elective Selection:** Easily add up to **three electives** using a clean and **dynamic interface**.
+* **Real-Time Updates:** The extension periodically refreshes the page, ensuring the latest data. It also monitors seat availability and **notifies** the user when electives become accessible.
+* **Intelligent Automation:** The extension makes decisions based on **real-time changes** in seat availability and other relevant data. It also **automatically registers** for electives when all conditions are met.
 
-Enable "Developer mode" in the top right corner.
+### **Installation**
 
-Click "Load unpacked" and select the cloned repository folder.
+1. **Clone** the repository.
+2. Open Chrome and navigate to **chrome://extensions/**.
+3. Enable **Developer mode**.
+4. Click **Load unpacked** and select the cloned repository folder.
 
-The extension is now installed and ready to use!
+### **Usage**
 
-Usage
-Open the FlexStudent registration page.
+1. Open the FlexStudent portal and go to the **Course Registration page**.
+2. Click on the extension icon to open the popup.
+3. Add your desired electives using the **dynamic interface**.
+4. Click **Start Automation** to begin the process.
 
-Click on the extension icon in the Chrome toolbar to open the popup.
+### **Contributing**
 
-Enter your elective preferences within the user-friendly interface.
+Contributions are **welcome**! Please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Click "Start Automation" to initiate the automated registration process.
+### **License**
 
-Contributing
-If you'd like to contribute, please follow our Contribution Guidelines.
+This project is licensed under the **MIT License** - see the [LICENSE.md](LICENSE.md) file for details.
 
-License
-This project is licensed under the MIT License.
+### **Acknowledgments**
 
-Feel free to reach out for questions, feedback, or collaboration opportunities!
+Special thanks to the contributors who have made this project possible.
+
+## **Happy automating your course registration with FlexStudent Automator!** 🚀
